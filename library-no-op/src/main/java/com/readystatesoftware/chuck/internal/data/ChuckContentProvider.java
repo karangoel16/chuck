@@ -13,15 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.readystatesoftware.chuck.internal.support;
+package com.readystatesoftware.chuck.internal.data;
 
-import androidx.viewpager.widget.ViewPager;
+import android.content.Context;
 
-public abstract class SimpleOnPageChangedListener implements ViewPager.OnPageChangeListener {
-    @Override
-    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
-    @Override
-    public abstract void onPageSelected(int position);
-    @Override
-    public void onPageScrollStateChanged(int state) {}
+
+public class ChuckContentProvider {
+
+    public static String export(Context context) {
+        return null;
+    }
 }
